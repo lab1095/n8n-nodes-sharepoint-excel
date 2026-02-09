@@ -1,5 +1,7 @@
 # n8n-nodes-sharepoint-excel
 
+[![npm version](https://img.shields.io/npm/v/@lab1095/n8n-nodes-sharepoint-excel.svg)](https://www.npmjs.com/package/@lab1095/n8n-nodes-sharepoint-excel)
+
 > ⚠️ **Warning:** This node is currently in development and not ready for production use. Use at your own risk.
 >
 > ⚠️ **Warning:** Please review the [known limitations](docs/limitations) before using this node.
