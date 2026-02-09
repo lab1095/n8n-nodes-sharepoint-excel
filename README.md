@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@lab1095/n8n-nodes-sharepoint-excel.svg)](https://www.npmjs.com/package/@lab1095/n8n-nodes-sharepoint-excel)
 
+> ⚠️ **Warning:** Please review the [known limitations](#limitations) before using this node.
+
 This is an n8n community node that provides Excel file operations for SharePoint via Microsoft Graph API. Unlike native n8n nodes that rely on WAC tokens, this node **downloads and modifies files directly**, bypassing common SharePoint Excel issues.
 
 ![n8n.io - Workflow Automation](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png)
