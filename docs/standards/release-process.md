@@ -53,7 +53,12 @@ Required for scoped packages (`@lab1095/*`) to publish as public.
 
 ### Commit Messages
 
-The release commit must follow conventional commits format. The `n8n-node release` creates commits like `Release X.Y.Z`, but commitlint requires a type prefix. If the commit fails, the package may still be published to npm. Fix manually:
+The release commit must follow conventional commits format. By default `n8n-node release` (release-it) would create commits like `Release X.Y.Z`, which commitlint rejects. The repo's `.release-it.json` overrides this so release-it produces:
+
+- Commit: `chore(release): X.Y.Z`
+- Tag: `vX.Y.Z`
+
+No manual fix is needed. If a release ever fails _after_ publishing to npm (e.g. config removed), recover manually:
 
 ```bash
 # Check npm for published version
